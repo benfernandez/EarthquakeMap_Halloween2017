@@ -15,9 +15,9 @@ pumpImage = ('pumpkinIcon.png')
 def magColorChanger(magnitude):
     if magnitude < 1.0:
         return 'green'
-    elif 1.0 < magnitude < 3.0:
+    elif 1.0 < magnitude < 4.0:
         return 'orange'
-    elif magnitude > 3.0:
+    elif magnitude > 4.0:
         return 'red'
 
 map = folium.Map(location=[38.889931,-77.009003],zoom_start=5,tiles="stamenterrain")
